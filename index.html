@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary My Little Greedy Vampire Princess</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+</head>
+
+<body>
+
+<div id="deviceBlock">
+    <h1>This experience is only available on a computer</h1>
+</div>
+
+<div id="passwordGate">
+    <div class="gateBox">
+        <h2>Enter Password</h2>
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button onclick="checkPassword()">Enter</button>
+        <p id="errorMsg"></p>
+        <p id="statusMsg"></p>
+    </div>
+</div>
+
+<div class="navbar" id="navbar">
+    <a data-page="home" onclick="navigate(this)">Home</a>
+    <a data-page="timeline" onclick="navigate(this)">Activities</a>
+    <a data-page="future" onclick="navigate(this)">Our Future Together</a>
+    <a data-page="gallery" onclick="navigate(this)">Photos</a>
+    <div class="slider" id="slider"></div>
+</div>
+
+<div class="container page active" id="home">
+
+    <div class="hero" id="heroText">
+      <span class="word-wrap">
+        <span class="word" id="happy">
+            <span>H</span><span>A</span><span>P</span><span>P</span><span>Y</span>
+        </span>
+      </span>
+
+        <span class="space">&nbsp;</span>
+      <span class="word-wrap">
+        <span class="word" id="birthday">
+            <span>A</span><span>N</span><span>N</span><span>I</span><span>V</span><span>E</span><span>R</span><span>S</span><span>A</span><span>R</span><span>Y</span>
+        </span>
+      </span>
+
+    </div>
+
+    <p>This is a website in honor of my beloved girlfriend and I reaching our first year together. I love you, Tvisha💕</p>
+    <p>You might want to click 2 special question marks from the background (maybe for some important secret(s)?)</p>
+</div>
+
+<div class="container page" id="timeline">
+    <h1>1 Year of Togetherness</h1>
+    <p>What Did We Do This Year? </p>
+
+    <ul>
+        <li>1. You supported me through some of my hardest moments</li>
+        <li>2. We now know every detail of each other's bodies</li>
+        <li>3. You gained an insane boyfriend</li>
+        <li>4. We went long moments without being together</li>
+        <li>5. You play Geometry Dash!</li>
+        <li>6. I made you play Hollow Knight</li>
+        <li>7. Making out and flirting has become the norm for us</li>
+        <li>8. We got engaged</li>
+        <li>9. You made 91 reasons why you love me</li>
+	<li>10. You defended me in an argument against Tiya and Mishti</li>
+        <li>11. I made you 101 reasons why I love you (Where might that be?)</li>
+	<li>12. We went back to Snoopy Island :D</li>
+    </ul>
+
+    <a class="secret" href="#" onclick="showPage('reasons')">?</a>
+</div>
+
+<div class="container page" id="future">
+    <h1>Things We Should Do</h1>
+
+    <ul>
+        <li>Visit Rome, Tokyo and South Korea</li>
+        <li>Go on a cruise</li>
+        <li>Visit the Caribbean Islands</li>
+        <li>Go to an arcade</li>
+        <li>Go on a date</li>
+        <li>Work on extracurriculars to strengthen your college profile</li>
+        <li>Start planning your college and maybe learn the language</li>
+        <li>Slow dancing when we're older</li>
+        <li>Go on a Japanese style hotspring</li>
+   </ul>
+
+</div>
+
+<div class="container page" id="reasons">
+    <h1>101 Reasons Why I Love You</h1>
+    <p>I ten-up you with your 91 reasons why you love me</p>
+
+<div class="reasons-grid">
+    <ul>
+        <li>1. You're very pretty in a way that feels natural and effortless</li>
+        <li>2. Being around you feels warm and comforting</li>
+        <li>3. We can talk about anything without it feeling forced</li>
+        <li>4. You teach me things without even trying</li>
+        <li>5. You inspire me to grow into a better version of myself</li>
+        <li>6. You bring peace into my life when everything feels chaotic</li>
+        <li>7. You encourage me to take care of my health</li>
+        <li>8. You’re independent and capable in a way I admire</li>
+        <li>9. You help me believe in my ability to improve</li>
+        <li>10. Your vulnerability with me is adorable</li>
+        <li>11. You comfort me when I’m struggling</li>
+        <li>12. You trust me enough to be open with me</li>
+        <li>13. You let me into parts of your life most people don’t see</li>
+        <li>14. You bring out my playful side</li>
+        <li>15. You help me grow emotionally</li>
+        <li>16. You push yourself to try new things</li>
+        <li>17. You’re committed to the things and people you care about</li>
+        <li>18. You choose to love me every day</li>
+        <li>19. Your enthusiasm lifts my energy instantly</li>
+        <li>20. You fulfill my intimate needs in a meaningful way</li>
+    </ul>
+
+    <ul>
+        <li>21. You turn ordinary moments into memories</li>
+        <li>22. Your canine teeth are the cutest thing I’ve ever seen</li>
+        <li>23. You correct me in ways that help me grow</li>
+        <li>24. I love taking walks with you</li>
+        <li>25. You tolerate my weird habits with patience</li>
+        <li>26. You respect my irrational fears</li>
+        <li>27. You let me express myself freely</li>
+        <li>28. I enjoy listening to you talk about your interests</li>
+        <li>29. You make me feel capable and intelligent</li>
+        <li>30. You’re the perfect pillow when I’m tired</li>
+        <li>31. I love your spontaneous kisses</li>
+        <li>32. You helped me understand what being a man truly means</li>
+        <li>33. You helped me overcome unhealthy habits</li>
+        <li>34. Your family makes me feel supported</li>
+        <li>35. You believe in my long-term goals</li>
+        <li>36. You reassure me in ways no one else can</li>
+        <li>37. Our intimate moments feel meaningful</li>
+        <li>38. You’re the person I want to build a future with</li>
+        <li>39. I trust you with my deepest secrets</li>
+        <li>40. You let me rest when I’m exhausted</li>
+    </ul>
+
+    <ul>
+        <li>41. You check in with me before crossing boundaries</li>
+        <li>42. You give thoughtful gifts</li>
+        <li>43. You understand my emotions quickly</li>
+        <li>44. I love the way you look at me</li>
+        <li>45. You bring stability into my life</li>
+        <li>46. You make dull days feel meaningful</li>
+        <li>47. Your mental strength inspires me</li>
+        <li>48. You care deeply about your future</li>
+        <li>49. You push me to improve myself</li>
+        <li>50. Your patience with me means everything</li>
+        <li>51. You make me laugh even when I’m upset</li>
+        <li>52. You understand my personality better than most</li>
+        <li>53. Your voice is comforting</li>
+        <li>54. You put effort into our relationship</li>
+        <li>55. You make me feel safe being myself</li>
+        <li>56. You think deeply about the world</li>
+        <li>57. You’re honest with me when I’m wrong</li>
+        <li>58. You make me feel fortunate to have you</li>
+        <li>59. You balance softness and strength beautifully</li>
+        <li>60. You listen with genuine attention</li>
+    </ul>
+
+    <ul>
+        <li>61. You make space for me in your busy life</li>
+        <li>62. Your little habits make you even more lovable</li>
+        <li>63. You make me feel valued</li>
+        <li>64. You give my life direction</li>
+        <li>65. You try to understand my point of view</li>
+        <li>66. You inspire me to work harder</li>
+        <li>67. You have faith in my abilities</li>
+        <li>68. Being with you feels natural</li>
+        <li>69. You make me feel emotionally connected</li>
+        <li>70. You challenge me in healthy ways</li>
+        <li>71. You notice details others overlook</li>
+        <li>72. You show appreciation for the things I do</li>
+        <li>73. You stay determined even when things get tough</li>
+        <li>74. You support me emotionally</li>
+        <li>75. Your reactions are adorable</li>
+        <li>76. You make me feel like I matter</li>
+        <li>77. You bring playfulness into my life</li>
+        <li>78. You show me that I’m important to you</li>
+        <li>79. I enjoy every moment we spend together</li>
+        <li>80. You complete parts of me I didn’t know were missing</li>
+    </ul>
+
+    <ul>
+        <li>81. You’re always evolving as a person</li>
+        <li>82. You inspire me to grow</li>
+        <li>83. You boost my confidence</li>
+        <li>84. You express yourself beautifully</li>
+        <li>85. You make silence feel peaceful</li>
+        <li>86. You notice when something is off with me</li>
+        <li>87. You show care in small and big ways</li>
+        <li>88. You stay true to your genuine self</li>
+        <li>89. You treat me with respect</li>
+        <li>90. You stay authentic even under pressure</li>
+        <li>91. You make my life more exciting</li>
+        <li>92. You show up for me when I need you</li>
+        <li>93. You help me believe I can achieve more</li>
+        <li>94. You bring out qualities in me I didn’t know I had</li>
+        <li>95. You understand me even when I’m difficult</li>
+        <li>96. You brighten my days effortlessly</li>
+        <li>97. You give me emotional stability</li>
+        <li>98. Being with you feels peaceful and effortless</li>
+        <li>99. Your hair smells amazing</li>
+        <li>100. I love you for who you are now and who you’ll become</li>
+        <li>101. You are my fiancée </li>
+    </ul>
+</div>
+
+<a class="secret" href="#" onclick="showPage('poem')">?</a>
+
+<br><br>
+<button onclick="navigate(document.querySelector('[data-page=\'timeline\']'))">Back</button>
+</div>
+
+
+<div class="container page" id="poem">
+    <h1>A Poem I made</h1>
+    <h3>Timeless love</h3>
+
+    <p id="poemText"></p>
+    </p>
+
+    <button onclick="showPage('reasons')">Back</button>
+</div>
+
+<div class="container page" id="gallery">
+    <h1>Memories of You I Like To Look At (Tu es <i>si beau</i>)</h1>
+
+    <div class="gallery-scroll">
+        <div class="gallery">
+            <div class="frame"><img src="THE_BEST_ONE.jpeg"></div>
+            <div class="frame"><img src="photo1.jpeg"></div>
+            <div class="frame"><img src="photo2.jpeg"></div>
+            <div class="frame"><img src="photo3.jpeg"></div>
+            <div class="frame"><img src="photo4.jpeg"></div>
+            <div class="frame"><img src="photo5.jpeg"></div>
+            <div class="frame"><img src="photo6.jpeg"></div>
+            <div class="frame"><img src="photo7.jpeg"></div>
+            <div class="frame"><img src="photo8.jpeg"></div>
+            <div class="frame"><img src="photo9.jpeg"></div>
+            <div class="frame"><img src="photo10.jpeg"></div>
+            <div class="frame"><img src="photo11.jpeg"></div>
+            <div class="frame"><img src="photo12.jpeg"></div>
+            <div class="frame"><img src="photo13.jpeg"></div>
+            <div class="frame"><img src="photo14.jpeg"></div>
+            <div class="frame"><img src="photo15.jpeg"></div>
+            <div class="frame"><img src="photo16.jpeg"></div>
+            <div class="frame"><img src="photo17.jpeg"></div>
+            <div class="frame"><img src="photo18.jpeg"></div>
+            <div class="frame"><img src="photo19.jpeg"></div>
+            <div class="frame"><img src="photo20.jpeg"></div>
+            <div class="frame"><img src="photo21.jpeg"></div>
+            <div class="frame"><img src="photo22.jpeg"></div>
+            <div class="frame"><img src="photo23.jpeg"></div>
+            <div class="frame"><img src="photo24.jpeg"></div>
+            <div class="frame"><img src="photo25.jpeg"></div>
+            <div class="frame"><img src="photo26.jpeg"></div>
+            <div class="frame"><img src="photo27.jpeg"></div>
+            <div class="frame"><img src="photo28.jpeg"></div>
+            <div class="frame"><img src="photo29.jpeg"></div>
+            <div class="frame"><img src="photo30.jpeg"></div>
+            <div class="frame"><img src="photo31.jpeg"></div>
+            <div class="frame"><img src="photo32.jpeg"></div>
+            <div class="frame"><img src="photo33.jpeg"></div>
+            <div class="frame"><img src="photo34.jpeg"></div>
+            <div class="frame"><img src="photo35.jpeg"></div>
+            <div class="frame"><img src="photo36.jpeg"></div>
+            <div class="frame"><img src="photo37.jpeg"></div>
+            <div class="frame"><img src="photo38.jpeg"></div>
+            <div class="frame"><img src="photo39.jpeg"></div>
+            <div class="frame"><img src="photo40.jpeg"></div>
+            <div class="frame"><img src="photo41.jpeg"></div>
+            <div class="frame"><img src="photo42.jpeg"></div>
+            <div class="frame"><img src="photo43.jpeg"></div>
+            <div class="frame"><img src="photo44.jpeg"></div>
+            <div class="frame"><img src="photo45.jpeg"></div>
+            <div class="frame"><img src="photo46.jpeg"></div>
+            <div class="frame"><img src="photo47.jpeg"></div>
+            <div class="frame"><img src="photo48.jpeg"></div>
+            <div class="frame"><img src="photo49.jpeg"></div>
+            <div class="frame"><img src="photo50.jpeg"></div>
+            <div class="frame"><img src="photo51.jpeg"></div>
+            <div class="frame"><img src="photo52.jpeg"></div>
+            <div class="frame"><img src="photo53.jpeg"></div>
+            <div class="frame"><img src="cutie1.jpeg"></div>
+            <div class="frame"><img src="cutie2.jpeg"></div>
+            <div class="frame"><img src="cutie3.jpeg"></div>
+            <div class="frame"><img src="cutiee1.jpeg"></div>
+            <div class="frame"><img src="photo54.jpeg"></div>
+            <div class="frame"><img src="photo55.jpeg"></div>
+            <div class="frame"><img src="photo56.jpeg"></div>
+            <div class="frame"><img src="photo57.jpeg"></div>
+            <div class="frame"><img src="photo58.jpeg"></div>
+            <div class="frame"><img src="photo59.jpeg"></div>
+            <div class="frame"><img src="photo60.jpeg"></div>
+            <div class="frame"><img src="photo61.jpeg"></div>
+            <div class="frame"><img src="photo62.jpeg"></div>
+            <div class="frame"><img src="photo63.jpeg"></div>
+            <div class="frame"><img src="photo64.jpeg"></div>
+            <div class="frame"><img src="photo65.jpeg"></div>
+            <div class="frame"><img src="photo66.jpeg"></div>
+            <div class="frame"><img src="photo67.jpeg"></div>
+            <div class="frame"><img src="photo68.jpeg"></div>
+            <div class="frame"><img src="photo69.jpeg"></div>
+            <div class="frame"><img src="photo70.jpeg"></div>
+            <div class="frame"><img src="photo71.jpeg"></div>
+            <div class="frame"><img src="photo72.jpeg"></div>
+            <div class="frame"><img src="photo73.jpeg"></div>
+            <div class="frame"><img src="photo74.jpeg"></div>
+            <div class="frame"><img src="photo75.jpeg"></div>
+            <div class="frame"><img src="photo76.jpeg"></div>
+            <div class="frame"><img src="photo77.jpeg"></div>
+            <div class="frame"><img src="photo78.jpeg"></div>
+            <div class="frame"><img src="photo79.jpeg"></div>
+            <div class="frame"><img src="photo80.jpeg"></div>
+            <div class="frame"><img src="photo81.jpeg"></div>
+            <div class="frame"><img src="photo82.jpeg"></div>
+            <div class="frame"><img src="photo83.jpeg"></div>
+            <div class="frame"><img src="photo84.jpeg"></div>
+            <div class="frame"><img src="photo85.jpeg"></div>
+            <div class="frame"><img src="photo86.jpeg"></div>
+            <div class="frame"><img src="photo87.jpeg"></div>
+            <div class="frame"><img src="photo88.jpeg"></div>
+            <div class="frame"><img src="photo89.jpeg"></div>
+            <div class="frame"><img src="photo90.jpeg"></div>
+            <div class="frame"><img src="photo91.jpeg"></div>
+            <div class="frame"><img src="photo92.jpeg"></div>
+            <div class="frame"><img src="photo93.jpeg"></div>
+            <div class="frame"><img src="photo94.jpeg"></div>
+            <div class="frame"><img src="photo95.jpeg"></div>
+            <div class="frame"><img src="photo96.jpeg"></div>
+            <div class="frame"><img src="photo97.jpeg"></div>
+            <div class="frame"><img src="photo98.jpeg"></div>
+            <div class="frame"><img src="photo99.jpeg"></div>
+            <div class="frame"><img src="photo100.jpeg"></div>
+            <div class="frame"><img src="photo101.jpeg"></div>
+            <div class="frame"><img src="photo102.jpeg"></div>
+            <div class="frame"><img src="photo103.jpeg"></div>
+            <div class="frame"><img src="photo104.jpeg"></div>
+            <div class="frame"><img src="photo105.jpeg"></div>
+            <div class="frame"><img src="photo106.jpeg"></div>
+            <div class="frame"><img src="photo107.jpeg"></div>
+            <div class="frame"><img src="photo108.jpeg"></div>
+            <div class="frame"><img src="photo109.jpeg"></div>
+            <div class="frame"><img src="photo110.jpeg"></div>
+            <div class="frame"><img src="photo111.jpeg"></div>
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPT -->
+<script>
+let isHomeActive = true;
+let msnry;
+
+function showPage(pageId) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById(pageId).classList.add('active');
+
+    isHomeActive = (pageId === "home");
+    animateList(pageId);
+
+if (pageId === "gallery") {
+
+    const frames = document.querySelectorAll(".frame");
+
+    frames.forEach((frame, i) => {
+        frame.style.transitionDelay = `${i * 60}ms`;
+        frame.classList.add("show");
+    });
+
+    setTimeout(initGallery, 50);
+}
+
+if (pageId === "poem") {
+    typePoem();
+}
+
+}
+
+const navbar = document.getElementById("navbar");
+const links = navbar.querySelectorAll("a");
+const slider = document.getElementById("slider");
+
+function navigate(el) {
+    const pageId = el.getAttribute("data-page");
+
+    showPage(pageId);
+
+    links.forEach(link => link.classList.remove("active"));
+    el.classList.add("active");
+
+    navbar.classList.remove("collapsed");
+
+    requestAnimationFrame(() => {
+        updateSlider(el);
+    });
+}
+
+function updateSlider(el) {
+    const rect = el.getBoundingClientRect();
+    const navRect = navbar.getBoundingClientRect();
+
+    slider.style.width = rect.width + "px";
+    slider.style.left = (rect.left - navRect.left) + "px";
+    slider.style.top = "50%";
+    slider.style.transform = "translateY(-50%)";
+}
+
+const hero = document.getElementById("heroText");
+const words = document.querySelectorAll(".word");
+const isTouch = window.matchMedia("(pointer: coarse)").matches;
+
+let currentX = 0;
+let currentY = 0;
+let targetX = 0;
+let targetY = 0;
+
+if (isTouch) {
+    words.forEach(word => {
+        word.addEventListener("click", () => {
+            isHomeActive = false;
+            words.forEach(w => w.classList.remove("tap-animate"));
+
+            word.classList.remove("tap-animate");
+            void word.offsetWidth;
+            word.classList.add("tap-animate");
+
+            setTimeout(() => {
+                isHomeActive = true;
+            }, 500);
+        });
+    });
+}
+
+if (isTouch) {
+    words.forEach(word => {
+        word.addEventListener("click", () => {
+
+            // remove from all
+            words.forEach(w => w.classList.remove("tap-animate"));
+
+            // trigger animation
+            word.classList.add("tap-animate");
+        });
+    });
+}
+
+function animateHero() {
+    if (isHomeActive) {
+        currentX += (targetX - currentX) * 0.08;
+        currentY += (targetY - currentY) * 0.08;
+
+words.forEach((word, i) => {
+    if (word.classList.contains("tap-animate")) return;
+
+    const intensity = 1 - i * 0.15;
+    const hoverOffset = word.classList.contains("hovered") ? -6 : 0;
+
+    const wraps = document.querySelectorAll(".word-wrap");
+
+wraps.forEach((wrap, i) => {
+    const intensity = 1 - i * 0.15;
+
+    wrap.style.transform =
+        `translate(${currentX * intensity}px, ${currentY * intensity}px)`;
+});
+});
+     }
+
+    requestAnimationFrame(animateHero);
+}
+animateHero();
+
+hero.addEventListener("mouseleave", () => {
+    targetX = 0;
+    targetY = 0;
+
+    words.forEach(word => word.classList.remove("hovered"));
+});
+
+words.forEach(word => {
+    word.addEventListener("mouseenter", () => {
+        words.forEach(w => w.classList.remove("hovered"));
+        word.classList.add("hovered");
+    });
+
+    word.addEventListener("mouseleave", () => {
+        word.classList.remove("hovered");
+    });
+});
+
+function animateList(pageId) {
+    const page = document.getElementById(pageId);
+    const items = page.querySelectorAll("li");
+
+    items.forEach((item, index) => {
+        item.classList.remove("show");
+
+        setTimeout(() => {
+            item.classList.add("show");
+        }, index * 80);
+    });
+}
+
+window.addEventListener("load", () => {
+    const first = links[0];
+    first.classList.add("active");
+    updateSlider(first);
+
+    const grid = document.querySelector(".masonry");
+});
+
+function initGallery() {
+    const grid = document.querySelector(".masonry");
+    const container = document.querySelector(".film-strip");
+
+    if (!grid) return;
+
+    imagesLoaded(grid, () => {
+
+        if (msnry) msnry.destroy();
+
+        msnry = new Masonry(grid, {
+            itemSelector: ".frame",
+            columnWidth: 160,
+            gutter: 20,
+        });
+
+        msnry.layout();
+
+        container.style.opacity = "1";
+    });
+}
+
+const poemLines = `
+You walked into my life so suddenly,
+yet it felt like you had always been there,
+as if I had known you long before we first met in badminton.
+
+You lit up a world I once thought was small,
+quiet and dim,
+dull and dismal,
+and turned it into something brighter,
+like the light you are,
+into something I can call heaven.
+
+I used to think love was a curse
+the way it aches,
+the way it pulls at your soul
+even when the person you want
+is right there beside you.
+
+But that was the old me speaking.
+
+Now I understand
+that if this was a curse,
+then it’s the most beautiful one
+that this world could ever give me.
+
+Because no matter how much it hurts,
+no matter how deeply I feel it,
+it will never be enough
+to make me stop loving you.
+
+I will love you for as long as time lets me,
+for as long as I exist in it.
+
+As,
+The April me loves you.
+The May me loves you.
+The June me loves you.
+The July me loves you.
+The August me loves you.
+The September me loves you.
+The October me loves you.
+The November me loves you.
+The December me loves you.
+And the January me loves you
+without a doubt in my heart and mind.
+
+And every version of me after that,
+I will keep choosing you,
+again and again,
+without hesitation.
+
+Happy one year anniversary my dear Solina.
+`.trim();
+
+function typePoem() {
+    const el = document.getElementById("poemText");
+    if (!el) return;
+
+    el.innerHTML = "";
+    let i = 0;
+
+    const speed = 8; 
+
+    function type() {
+        if (i < poemLines.length) {
+            el.innerHTML += poemLines[i];
+            i++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
+}
+const PASSWORD = "143ADYA_aarush"; //password
+
+function checkPassword() {
+    const input = document.getElementById("passwordInput");
+    const status = document.getElementById("statusMsg");
+    const gate = document.getElementById("passwordGate");
+
+    if (input.value === PASSWORD) {
+
+        status.innerText = "Verifying...";
+
+        setTimeout(() => {
+            status.innerText = "Welcome to my digital gift";
+        }, 800);
+
+        setTimeout(() => {
+            status.innerText = "Loading digital gift...";
+        }, 1400);
+
+        setTimeout(() => {
+            gate.style.opacity = "0";
+        }, 2200);
+
+        setTimeout(() => {
+            gate.style.display = "none";
+            gate.style.pointerEvents = "none";
+            gate.style.visibility = "hidden";
+
+            document.body.classList.add("unlocked");
+            localStorage.setItem("unlocked", "true");
+        }, 2800);
+    } else {
+        const box = document.querySelector(".gateBox");
+
+        document.getElementById("errorMsg").innerText = "Hmm, not quite! It's a password derived from a password you set.";
+
+        box.classList.add("glitch");
+
+        setTimeout(() => {
+            box.classList.remove("glitch");
+        }, 500);
+    }
+}
+
+function checkDevice() {
+    const isPhone = window.innerWidth < 900;
+
+    const block = document.getElementById("deviceBlock");
+
+    if (isPhone) {
+        block.style.display = "flex";
+        document.body.style.overflow = "hidden";
+    } 
+
+    else {
+        block.style.display = "none";
+        document.body.style.overflow = "";
+    }
+}
+
+window.addEventListener("load", () => {
+    checkDevice();
+    if (localStorage.getItem("unlocked") === "true") {
+        const gate = document.getElementById("passwordGate");
+
+        if (gate) gate.style.display = "none";
+
+        document.body.classList.add("unlocked");
+    }
+});
+
+window.addEventListener("resize", checkDevice);
+window.addEventListener("load", () => {
+    const home = document.getElementById("home");
+    if (home) home.classList.add("active");
+});
+
+
+let x1 = 0, y1 = 0;
+let x2 = 0, y2 = 0;
+
+function animateBackground() {
+    x1 += 0.35;
+    y1 += 0.22;
+
+    x2 -= 0.18;
+    y2 += 0.12;
+
+    document.body.style.setProperty("--bg1x", x1 + "px");
+    document.body.style.setProperty("--bg1y", y1 + "px");
+    document.body.style.setProperty("--bg2x", x2 + "px");
+    document.body.style.setProperty("--bg2y", y2 + "px");
+
+    requestAnimationFrame(animateBackground);
+}
+
+animateBackground();
+
+</script>
+
+</body>
+</html>
